@@ -4,7 +4,7 @@ node_modules/
 dist/
 .output/
 
-data/transactions.json
+server/data/*.json
 .env
 .env.local
 
