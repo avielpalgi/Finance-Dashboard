@@ -1,0 +1,83 @@
+
+$primary-color: #2563eb;
+$bg-color: #f8fafc;
+$text-color: #1e293b;
+$expense-color: #ef4444;
+$income-color: #22c55e;
+$border-color: #e2e8f0;
+$border-radius: 12px;
+$shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: $border-radius;
+  box-shadow: $shadow;
+  color: $text-color;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid $border-color;
+  padding-bottom: 20px;
+}
+
+.uploadBtn {
+  background: $primary-color;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: opacity 0.2s;
+
+  &:hover { opacity: 0.9; }
+}
+
+.summaryCard {
+  background: $bg-color;
+  padding: 20px;
+  border-radius: $border-radius;
+  text-align: center;
+  margin-bottom: 30px;
+  border: 1px solid $border-color;
+
+  .balance {
+    font-size: 2rem;
+    font-weight: 800;
+    color: $primary-color;
+    margin: 5px 0 0 0;
+  }
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th {
+    text-align: right;
+    padding: 12px;
+    border-bottom: 2px solid $border-color;
+    color: #64748b;
+  }
+
+  td {
+    padding: 12px;
+    border-bottom: 1px solid $border-color;
+  }
+
+.expense { 
+    color: $expense-color; // אדום (מוגדר ב-variables)
+    font-weight: bold; 
+}
+.income { 
+    color: $income-color; // ירוק
+    font-weight: bold; 
+}
+.active { background: $primary-color; color: white; }
+}

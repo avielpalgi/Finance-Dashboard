@@ -1,0 +1,4 @@
+[
+  {"id": "cat_001", "name": "חשמל", "mainCategory": "בית", "type": "expense"},
+  {"id": "cat_002", "name": "משכורת", "mainCategory": "הכנסות", "type": "income"}
+]
