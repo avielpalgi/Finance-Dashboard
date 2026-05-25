@@ -1,0 +1,12 @@
+node_modules/
+
+.vite/
+dist/
+.output/
+
+data/transactions.json
+.env
+.env.local
+
+.vscode/
+.DS_Store
